@@ -29,7 +29,17 @@ const Navbar = () => {
             alt="PhoniKids Logo" 
             className="h-12 w-auto"
           />
-          <span className="font-nunito font-bold text-xl ml-2 text-phonikids-blue">PhoniKids</span>
+          <span className="font-nunito font-bold text-xl ml-2">
+            <span className="text-red-500">P</span>
+            <span className="text-green-500">H</span>
+            <span className="text-blue-500">O</span>
+            <span className="text-pink-500">N</span>
+            <span className="text-green-500">I</span>
+            <span className="text-blue-500">K</span>
+            <span className="text-red-500">I</span>
+            <span className="text-green-500">D</span>
+            <span className="text-blue-500">S</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
